@@ -1,4 +1,4 @@
-body{
+body {
 	font-family: 'Open Sans', sans-serif;
 	font-size:100%;
 	background: url(../images/bg.jpg);
@@ -7,4 +7,22 @@ body{
 	background-position: center;
 	background-size: cover;
 	font-weight: 300;
+}
+.joanna {
+	background: url(../images/joanna.jpg);
+	background-position: 55% 25%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	-webkit-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	-moz-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	-o-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	-webkit-border-radius: 146px;
+	-moz-border-radius: 146px;
+	-o-border-radius: 146px;
+	border-radius: 146px;
+	text-align: center;
+	margin: 14% auto;
+	width: 280px;
+	height: 280px;
 }
