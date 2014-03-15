@@ -8,11 +8,16 @@ body {
 	background-size: cover;
 	font-weight: 300;
 }
-.joanna {
-	background: url(../images/joanna.jpg);
-	background-position: 55% 25%;
-	background-size: 100%;
-	background-repeat: no-repeat;
+
+a {
+	color: black;
+	text-decoration: none;
+}
+.round:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.round {
 	-webkit-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
 	-moz-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
 	-o-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
@@ -21,8 +26,63 @@ body {
 	-moz-border-radius: 146px;
 	-o-border-radius: 146px;
 	border-radius: 146px;
+	background-color: rgba(200, 200, 200, 0.3);
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-o-transition:background-color 1s;
+	transition: background-color 1s;
+}
+
+.square {
+	-webkit-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	-moz-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	-o-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	background-color: rgba(200, 200, 200, 0.3);
+}
+
+p {
 	text-align: center;
-	margin: 14% auto;
+	position: relative;
+}
+
+.round p {
+	font-family: 'Montez';
+	padding-top: 35%;
+	font-weight: bold;
+	font-size: 2.8em;
+}
+
+.square p {
+	font-family: 'Averia Sans Libre';
+	padding-top: 5px;
+	margin: 0;
+	font-size: 1.8em;
+}
+
+#joanna {
+	background: url(../images/joanna.jpg);
+	background-position: 55% 25%;
+	background-size: 100%;
+	background-repeat: no-repeat;
 	width: 280px;
 	height: 280px;
+	margin: 14% auto;
+}
+
+#travels {
+	margin: -14% 15%;
+	width: 200px;
+	height: 200px;
+}
+
+#contact {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
 }
