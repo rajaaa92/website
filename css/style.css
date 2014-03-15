@@ -27,10 +27,13 @@ a {
 	-o-border-radius: 146px;
 	border-radius: 146px;
 	background-color: rgba(200, 200, 200, 0.3);
+	margin: 7% auto;
 	-webkit-transition: background-color 1s;
 	-moz-transition: background-color 1s;
 	-o-transition:background-color 1s;
 	transition: background-color 1s;
+	width: 200px;
+	height: 200px;
 }
 
 .square {
@@ -46,19 +49,18 @@ a {
 }
 
 p {
+	font-family: 'Montez';
 	text-align: center;
 	position: relative;
 }
 
 .round p {
-	font-family: 'Montez';
 	padding-top: 35%;
 	font-weight: bold;
 	font-size: 2.8em;
 }
 
 .square p {
-	font-family: 'Averia Sans Libre';
 	padding-top: 5px;
 	margin: 0;
 	font-size: 1.8em;
@@ -71,13 +73,6 @@ p {
 	background-repeat: no-repeat;
 	width: 280px;
 	height: 280px;
-	margin: 14% auto;
-}
-
-#travels {
-	margin: -14% 15%;
-	width: 200px;
-	height: 200px;
 }
 
 #contact {
