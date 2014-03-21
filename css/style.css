@@ -95,10 +95,17 @@ ul.select_lang li a {
 	border-radius: 6px;
 	width: 70px;
 	height: 45px;
+	margin-bottom: 15px;
 }
 
 ul.select_lang li a.PL {
 	background: url(../images/PL.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+ul.select_lang li a.EN {
+	background: url(../images/EN.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
