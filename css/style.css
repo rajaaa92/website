@@ -48,10 +48,33 @@ a {
 	background-color: rgba(200, 200, 200, 0.3);
 }
 
+.container {
+	-webkit-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	-moz-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	-o-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	background-color: rgba(200, 200, 200, 0.3);
+	width: 80%;
+	margin: auto;
+}
+
+.container p {
+	font-size: 1.3em;
+	font-family: 'Chelsea Market', sans-serif;
+}
+
 p {
 	font-family: 'Montez';
 	text-align: center;
 	position: relative;
+}
+
+p.bigger {
+	font-size: 200%;
 }
 
 .round p {
