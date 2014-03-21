@@ -59,12 +59,58 @@ a {
 	border-radius: 6px;
 	background-color: rgba(200, 200, 200, 0.3);
 	width: 80%;
-	margin: auto;
+	margin-right: 5%;
+	float: right;
 }
 
 .container p {
 	font-size: 1.3em;
 	font-family: 'Chelsea Market', sans-serif;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+ul.select_lang {
+	width: 10%;
+	float: left;
+	margin-left: 5%;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul.select_lang li {
+	float: left;
+	width: 100%;
+}
+
+ul.select_lang li a {
+	display: block;
+	-webkit-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	-moz-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	-o-box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	box-shadow: 0 4px 9px rgba(5, 5, 5, 0.56);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	width: 70px;
+	height: 45px;
+}
+
+ul.select_lang li a.PL {
+	background: url(../images/PL.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+ul.select_lang li a.back {
+	background: url(../images/back.png);
+	background-color: rgba(200, 200, 200, 0.3);
+	background-repeat: no-repeat;
+	width: 130px;
+	height: 120px;
+	margin-left: -20%;
+	margin-top: 10%;
 }
 
 p {
