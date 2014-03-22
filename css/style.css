@@ -165,6 +165,12 @@ ul.select_lang li a.UK {
 	background-repeat: no-repeat;
 }
 
+ul.select_lang li a.SV {
+	background: url(../images/SV.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 ul.select_lang li a.back {
 	background: url(../images/back.png);
 	background-color: rgba(200, 200, 200, 0.3);
