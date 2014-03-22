@@ -1,4 +1,6 @@
 <?php
+$rest_json = file_get_contents("php://input");
+$_POST = json_decode($rest_json, true);
 $body = "Nowy czlowiek zainteresowany jezykami: \n\n";
 $body .= 'email: ' . strip_tags($_POST['email_id']) . "i co widac?" . "\n";
 $headers = 'From: contact@rajewska.asia' . "\r\n" .
