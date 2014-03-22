@@ -1,6 +1,6 @@
 <?php
 $body = "Nowy czlowiek zainteresowany jezykami: \n\n";
-$body .= 'email: ' . strip_tags($_POST['email_id']) . "i co widac?" . "\n";
+$body .= 'email: ' . strip_tags($_POST['email_id']) . "\n";
 $headers = "From: contact@rajewska.asia" . "\r\n" .
    "Reply-To: ". strip_tags($_POST['email_id']) . "\r\n";
 $retval = mail("contact@rajewska.asia", "Nowy czlowiek zainteresowany jezykami", $body, $headers);
