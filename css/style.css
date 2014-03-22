@@ -147,6 +147,12 @@ ul.select_lang li a.CA {
 	background-repeat: no-repeat;
 }
 
+ul.select_lang li a.GL {
+	background: url(../images/GL.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 ul.select_lang li a.back {
 	background: url(../images/back.png);
 	background-color: rgba(200, 200, 200, 0.3);
