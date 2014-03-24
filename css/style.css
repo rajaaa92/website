@@ -171,6 +171,12 @@ ul.select_lang li a.SV {
 	background-repeat: no-repeat;
 }
 
+ul.select_lang li a.SK {
+	background: url(../images/SK.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 a.back {
 	background: url(../images/back.png);
 	background-color: rgba(200, 200, 200, 0.3);
