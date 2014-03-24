@@ -1,6 +1,6 @@
 <?php
 
-if ($_POST['name_id']=="")
+if ($_POST['phone_id']=="")
 {
   $body = "Nowy czlowiek zainteresowany jezykami: \n\n";
   $body .= 'email: ' . strip_tags($_POST['email_id']) . "\n";
