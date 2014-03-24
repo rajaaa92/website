@@ -219,8 +219,10 @@ form input {
 }
 
 form input.daleko {
+	width: 0px;
+	height: 0px;
+	top: -100px;
 	position: absolute;
-	top: -100%;
 }
 
 p.bigger {
