@@ -1,11 +1,14 @@
 <?php
-$body = "Nowy czlowiek zainteresowany jezykami: \n\n";
-$body .= 'email: ' . strip_tags($_POST['email_id']) . "\n";
-$headers = "From: contact@rajewska.asia" . "\r\n" .
-   "Reply-To: ". strip_tags($_POST['email_id']) . "\r\n";
-$retval = mail("contact@rajewska.asia", "Nowy czlowiek zainteresowany jezykami", $body, $headers);
-   if( $retval == true )
-   {
+
+if ($_POST['name_id']=="")
+{
+  $body = "Nowy czlowiek zainteresowany jezykami: \n\n";
+  $body .= 'email: ' . strip_tags($_POST['email_id']) . "\n";
+  $headers = "From: contact@rajewska.asia" . "\r\n" .
+      "Reply-To: ". strip_tags($_POST['email_id']) . "\r\n";
+  $retval = mail("contact@rajewska.asia", "Nowy czlowiek zainteresowany jezykami", $body, $headers);
+  if( $retval == true )
+  {
       echo ("<SCRIPT LANGUAGE='JavaScript'>
         window.alert('Thank you!')
         window.location.href='./index.html';
@@ -18,6 +21,30 @@ $retval = mail("contact@rajewska.asia", "Nowy czlowiek zainteresowany jezykami",
         window.location.href='./index.html';
       </SCRIPT>");
    }
+}
+else
+{
+  $body = "Nowy robot zainteresowany jezykami: \n\n";
+  $body .= 'email: ' . strip_tags($_POST['email_id']) . "\n";
+  $headers = "From: contact@rajewska.asia" . "\r\n" .
+      "Reply-To: ". strip_tags($_POST['email_id']) . "\r\n";
+  $retval = mail("contact@rajewska.asia", "Nowy czlowiek zainteresowany jezykami", $body, $headers);
+  if( $retval == true )
+  {
+      echo ("<SCRIPT LANGUAGE='JavaScript'>
+        window.alert('Thank you!')
+        window.location.href='./index.html';
+      </SCRIPT>");
+   }
+   else
+   {
+      echo ("<SCRIPT LANGUAGE='JavaScript'>
+        window.alert('Error. Try again.')
+        window.location.href='./index.html';
+      </SCRIPT>");
+   }
+}
+
 ?>
 <!-- to pomogło jak localhost nie chcial wysylac na gmaila maili http://www.developerfiles.com/how-to-send-smtp-mails-with-postfix-mac-os-x-10-8/ -->
 <!-- sudo vi /etc/postfix/sasl_passwd -->

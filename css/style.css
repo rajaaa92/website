@@ -218,6 +218,11 @@ form input {
 	border-radius: 6px;
 }
 
+form input.daleko {
+	position: absolute;
+	top: -100%;
+}
+
 p.bigger {
 	font-size: 200%;
 }
